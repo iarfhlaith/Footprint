@@ -1,0 +1,9 @@
+.project
+.settings/
+Thumbs.db
+tpl_c/
+cache/
+blog/
+forums/
+lib/config.php
+app/lib/config.php

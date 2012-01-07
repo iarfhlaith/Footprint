@@ -1,5 +1,9 @@
 <?php
 
+// Redirect to Info page.
+header('Location: accInfo.php');
+exit();
+
 require_once ('lib/initialise.php');
 
 // Start Footprint

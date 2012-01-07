@@ -145,6 +145,27 @@
 		
 			<div class='upgrade'>
 				
+				<p>
+					<strong>
+					You're using a free account to 
+					learn and understand how the Footprint works.
+					</strong>
+				</p>
+				
+				<p>
+					Footprint is now an open source project and is currently
+					<a href='https://github.com/iarfhlaith/Footprint'>
+					hosted on GitHub</a>.
+				</p>
+				
+				<p>
+					It is currently not possible to increase the account resources.
+					But if you want to run it on your own web server, all the code is available
+					to download for free.  
+				</p>
+				
+				[~*
+				
 				<span title='Upgrade Now'>
 				 <a href='/app/upgrade.php'>
 					<img src='/app/media/images/buttons/upgradeNow.gif' alt='Upgrade Now' />
@@ -168,6 +189,8 @@
 					attached. So if you think Footprint's not for you, we can cancel your account and
 					you won't be billed.
 				</p>
+				
+				*~]
 
 			</div>
 		

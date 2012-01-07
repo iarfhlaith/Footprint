@@ -2,7 +2,9 @@
 
 [~if $IN_BETA~]
 <div id='feedbackLine'>
-	We're in <strong>Private Beta</strong> and would really appreciate <a href='/app/feedback.php'>your feedback</a>.
+	Footprint is now an <strong>open source project</strong> <a target='_blank' href='https://github.com/iarfhlaith/Footprint'>hosted on Github</a>. 
+	Like what we're doing? Send us <a href='/app/feedback.php'>feedback</a> or
+	<a target='_blank' href='https://github.com/iarfhlaith/Footprint'>get involved</a>.
 </div>
 [~/if~]
 
@@ -61,7 +63,10 @@
 		 [~if $user.perms.manage_account~]
 			<li>[~if $page.dashboard~]<strong>[~/if~]<a href='/app/'>Dashboard</a>[~if $page.dashboard~]</strong>[~/if~]</li>
 			<li>[~if $page.accInfo~]<strong>[~/if~]<a href='/app/accInfo.php'>Account Info</a>[~if $page.accInfo~]</strong>[~/if~]</li>
+			
+			[~*
 			<li>[~if $page.upgrade~]<strong>[~/if~]<a href='/app/upgrade.php'>Upgrade Your System</a>[~if $page.upgrade~]</strong>[~/if~]</li>
+			*~]
 			
 			[~if $user.perms.activity_feed~]
 				<li>[~if $page.rssIntro ~]<strong>[~/if~]<a href='/app/rssIntro.php'>Subscribe</a>[~if $page.rssIntro~]</strong>[~/if~]</li>

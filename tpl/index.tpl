@@ -11,6 +11,8 @@
 </head>
 
 <body>
+	
+	[~include file='feedback.tpl'~]
 
 <div id='container'>
 

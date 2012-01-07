@@ -68,6 +68,13 @@ p   {
 	margin: 0 auto;
 }
 
+#feedback {
+    background-color: #FFFFCC;
+    border-bottom: 1px solid #006699;
+    padding: 7px;
+    text-align: center;
+}
+
 #footerStrip {
 
 	background: #deefff;

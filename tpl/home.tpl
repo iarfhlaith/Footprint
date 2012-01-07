@@ -21,7 +21,9 @@
 	<link rel="stylesheet" href="/sifr/css/sifr.css" type="text/css" />
 </head>
 <body>
-	
+
+[~include file='feedback.tpl'~]
+
 <div id='top'>
 	<div id='header'>
 		
