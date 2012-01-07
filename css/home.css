@@ -1,0 +1,151 @@
+* {
+	
+	margin:0;
+	padding:0;
+}
+
+img {
+	
+	border:0;
+}
+
+.clear {
+	
+	clear:both;
+}
+
+body {
+	
+	background:#11426A;
+	margin:0;
+	padding:0;
+	font-family:arial;
+}
+
+#top {
+	
+	background-image:url(/media/images/promoSite/topSliver.gif); background-repeat:repeat-x;
+}
+
+#header {
+	
+	width:1000px;
+	margin:0 auto;
+	padding:5px 0 7px 0;
+}
+
+#header ul {
+	
+	list-style:none;
+	float:right;
+	display:block;
+	font-size:14px;/*14f*/
+}
+
+#header ul li {
+	
+	float:left;
+	margin:25px 0 0 42px;
+}
+
+#header ul li a {
+	
+	color:#CC3300;
+	text-decoration:none;
+	font-weight:bolder;
+}
+
+#header ul li strong a {
+
+	color:#11426A;
+	border-bottom:2px solid #FFFFFF;
+	padding:0 0 4px 0;
+}
+
+#header ul li a:hover {
+
+	color:#11426A;
+	border-bottom:2px solid #FFFFFF;
+	padding:0 0 4px 0;
+}
+
+.container {
+	
+	width:1000px;
+	margin:0 auto;
+}
+
+.container h1 {
+	
+	font-size:42px;/*46f*/
+	color:#ffffff;
+	margin:36px 0 30px 0;
+}
+
+#bulk {
+	
+	background:#005EAA url(/media/images/home/macbookPro.png) no-repeat right bottom;
+	padding:36px 0 0 0;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+}
+
+#info {
+	
+	padding:0 0 60px 27px;
+	background:transparent url(/media/images/home/highlight.png) no-repeat left bottom;
+}
+
+.whatItDoes {
+	
+	color:#ffffff;
+	margin:0 0 35px 0;
+}
+
+.whatItDoes h2 {
+	
+	font-size:22px;/**/
+}
+
+.whatItDoes p {
+	
+	font-size:13px;
+}
+
+.icons {
+	
+	float:left;
+	padding:0 13px 0 0;
+}
+
+.buttons {
+	
+	float:left;
+	margin:0 20px 0 0;
+}
+
+/*start footer style*/
+#end {
+	
+	border-top:1px solid #225795;
+	margin:65px 0 40px 0;
+	padding:10px 0 0 0;
+}
+
+#footer {
+	
+	width:1000px;
+	margin:0 auto;
+}
+
+#webstrong {
+	
+	float:right;
+}
+
+#footer p {
+	
+	color:#3783C1;
+	font-size:11px;
+}

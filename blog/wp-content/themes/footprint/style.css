@@ -1,0 +1,63 @@
+
+.postmetadata {background:#fcf2ef; padding:5px; margin:0 0 18px 0; border-bottom: 1px solid #CC3300; font-size:10px;}
+
+span.cmt{background:transparent url(images/comment.gif) no-repeat;border:0;margin:0;padding:0 0 5px 20px;}
+span.cty{background:transparent url(images/category.gif) no-repeat;border:0;margin:0;padding:0 0 5px 20px;}
+
+.entry{float:left;width:520px;margin:0;padding:0; overflow:hidden;}
+
+h2 {margin:0 0 10px 0;}
+
+#rsidebar {}
+#rsidebar h2{font-size:12px;border-bottom:#eee 1px solid;margin:0 0 5px;padding:0;}
+#rsidebar h3 {margin-top:1px;}
+#rsidebar ul{list-style-type:none;margin:0;padding:0;}
+#rsidebar ul li{list-style-type:none;margin:0 0 10px;padding:0;}
+#rsidebar ul li ul{list-style-type:square;margin:0;padding:0 3px;}
+#rsidebar ul li ul li{list-style-type:none;background:transparent url(images/li.gif) no-repeat 0 3px;border:0;margin:0;padding:0 0 10px 15px;}
+
+.navigation{width:530px;color:#666;margin:0 auto; padding:0;}
+.alignright{float:right;margin-top:10px; margin-bottom:10px;}
+.alignleft{float:left;margin-top:10px; margin-bottom:10px;}
+#searchform { height:35px; line-height:35px; float:right; margin: 0; padding: 0;  }
+input#s { color: #5188d2; width: 200px; border: 1px solid #cbcbcb; background:#fcfcfc;}
+
+.boxcomments{border-top:5px solid #ddd;margin:15px 0 20px 0;}
+#commentform{border-top:1px solid #eee;margin:0;padding:15px 15px 1px;}
+#commentform label{display:block;margin:0;}
+#commentform input{width:170px;margin:0 5px 10px 0;padding:1px;}
+#commentform textarea{width:450px;margin:0 0 10px;padding:0;}
+#commentform #submit{margin:0 0 20px;}
+#commentform p{margin:5px 0;}
+ol.commentlist{margin:0 0 1px;padding:0;}
+ol.commentlist :hover{background:#e7f9ff;}
+ol.commentlist li{border-top:1px solid #eee;display:block;list-style:none;margin:0;padding:15px 15px 1px;}
+ol.commentlist li :hover{background:none;}
+
+ol.tblist{border-top:1px solid #fff;list-style:none;margin:0 0 1px;padding:15px;}
+ol.tblist li{display:block;list-style:none;background:#e7f9ff;padding-left:15px;margin:0 0 5px;}
+
+.rssBox {
+
+	text-align:center;
+	padding:15px;
+	border:1px solid #CCC;
+	background-color:#EEE;
+}
+
+.pagetitle {
+
+	color:#000066;
+	margin:0 12px 0 0;
+	padding: 0 0 2px 0;
+	border-bottom:dotted 2px #FF6600;
+}
+
+#commenthead {
+
+	color:#000066;
+	border-bottom:dotted 2px #FF6600;
+	margin:10px 0 0 0;
+	padding:0 0 3px 0;
+	font-size:16px;
+}

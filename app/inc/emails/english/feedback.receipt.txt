@@ -1,0 +1,24 @@
+Hi [~firstname~],
+
+Thanks for the feedback! The comments you make will help us to improve our product and our customer service.
+
+A member of the Footprint Support Team will respond to you shortly.
+
+Your tracking number is [#[~feedbackID~]].
+
+If you have any questions you can contact us directly via:
+
+Email: support@footprintapp.com
+Forum: http://footprintapp.com/forums
+
+Thanks,
+
+Footprint Support
+
+---------------------------------------
+Footprint is a service of Webstrong Ltd
+
+13 Docklands Innovation Park
+128-130 East Wall Road, Dublin 3
+Republic of Ireland
+

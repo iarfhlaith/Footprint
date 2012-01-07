@@ -1,0 +1,53 @@
+#coupon {
+	
+	padding:20px 0 0 0;
+}
+
+#details {
+	
+	width:518px;
+	margin:0;
+	padding:0;
+}
+
+.enterDetails {
+	
+	margin:10px 0 0 10px;
+	padding:0 0 0 0;
+	
+}
+
+/*.dropdown {
+	
+	margin:10px 0 0 0;
+	padding:0;
+	height:20px;
+}*/
+
+#siteAddress {
+	
+	margin:10px 0 0 10px;
+	padding:0;
+}
+
+#footprintapp {
+	
+	margin:0 0 0 10px;
+	padding:0;
+}
+
+#createAccount {
+	
+	margin:10px 0 0 0;
+	padding:0;
+}
+
+#anyQuestions {
+	
+	margin:130px 40px 0 0;
+}
+
+#details form div span {
+	
+	margin:0 0 10px 190px;
+}

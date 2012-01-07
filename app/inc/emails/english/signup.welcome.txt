@@ -1,0 +1,24 @@
+Hi [~name~],
+
+Thanks for signing up to Footprint! 
+
+We're really looking forward to hearing what you think of it.
+
+Part of the reason for this closed beta is to gather feedback
+from our users so we can improve Footprint. So please remember
+to give your feedback as often as possible.
+
+As a reminder, your chosen username is: [~username~] and your password is: [~password~].
+
+Your login URL is: http://[~prefix~].footprintapp.com
+
+Thanks again,
+
+Footprint Support
+
+---------------------------------------
+Footprint is a service of Webstrong Ltd
+
+13 Docklands Innovation Park
+128-130 East Wall Road, Dublin 3
+Republic of Ireland

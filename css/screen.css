@@ -1,0 +1,548 @@
+/* Global Formatting */
+
+* {
+
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+	font: 12px "Lucida Grande", verdana, arial, helvetica, sans-serif;
+	margin: 0;
+	text-align: center;
+	padding: 0;
+	background: #ffffff;
+	color: #2f2f2f;
+}
+
+img {border:none;}
+
+p   {
+
+	font-size: 12px;
+	line-height: 150%;
+}
+
+/* Site Structure */
+
+#container {
+
+	width: 100%;
+}
+
+#content {
+
+	width: 750px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 20px 0 0 0;
+}
+
+.featurePreview {
+
+	float:left;
+	margin:10px 10px 0 0;
+}
+
+#overview {
+
+	width: 530px;
+	float: left;
+	padding-right: 10px;
+	border-right: #fcf2ef 2px solid;
+	margin-right:10px;
+}
+
+#sideBar {
+
+	width: 190px;
+	float: left;
+}
+
+#head {
+
+	width: 750px;
+	height: 43px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#footerStrip {
+
+	background: #deefff;
+	padding: 20px 0 10px 0;
+}
+
+#footer {
+
+	width: 750px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.footerContentL {
+
+	width: 400px;
+	float: left;
+}
+
+.footerContentL p {
+
+	padding: 0;
+	margin: 0 0 5px 0;
+	font-size: 11px;
+	color: #91b7de;
+}
+
+.footerContentR {
+
+	width: 330px;
+	float: right;
+	text-align: right;
+	padding-top: 1px;
+}
+
+.footerContentR p {
+
+	padding: 0 0 26px 0;
+	margin: 0 0 5px 0;
+	font-size: 11px;
+	color: #91b7de;
+} 		
+
+#names {
+
+	margin: 0;
+	padding: 0;
+	height: 43px;
+	list-style: none;
+	display: inline;
+	overflow: hidden;
+}
+
+#names li {
+
+	margin: 0; 
+	padding: 0;
+    list-style: none;
+	display: inline;
+}
+
+#names a, #names span {
+
+	float: left;
+	padding: 43px 0 0 0;
+	overflow: hidden;
+	height: 0px !important; 
+	height /**/:43px; /* for IE5/Win only */
+}	
+
+#names a:hover, #names a:active, #names a.selected {
+
+	background-position: 0 -43px;
+}
+
+#fp a {
+
+	width: 200px;
+	background:url(/media/images/logos/footprint.gif) top left no-repeat;
+}
+
+#ws a {
+
+	width: 96px;
+	background:url(/media/images/logos/webstrong.gif) top left no-repeat;
+}
+
+#fpTop span {
+
+	width: 454px;
+	background: url(/media/images/promo/frontTop.gif) top left no-repeat;
+}
+
+#fpTopPlain span {
+
+	width: 454px;
+}
+
+#bannerStrip {
+
+	background: url('/media/images/promo/background.jpg') top left repeat-x;
+	border-bottom: #004186 solid 2px;
+}
+
+#bannerStripReg {
+
+	background: url('/media/images/bckgrnds/banner.jpg') top left repeat-x;
+	border-bottom: #004186 solid 2px;
+}
+
+#bannerContent {
+
+	width: 750px;
+	margin: 0 auto;
+	height: 186px;
+	background: url('/media/images/promo/screenshot.jpg') top right no-repeat;
+	text-align: left;
+	padding-top: 20px;
+}
+
+#bannerContentReg {
+
+	width: 750px;
+	margin: 0 auto;
+	height: 73px;
+	text-align: left;
+	padding-top: 17px;
+}
+
+#bannerContent h1 {
+	
+	width: 400px;
+	margin-bottom: 12px;
+	_margin-bottom: 10px;
+	height: 25px;
+	background: url('/media/images/promo/takeControl.gif') top left no-repeat;
+	text-indent: -5000px;
+}
+
+#bannerContentReg h1 {
+	
+	width: 400px;
+	margin-bottom: 2px;
+	_margin-bottom: 2px;
+	height: 25px;
+	color:#FFFFFF;
+	font-size:20px;
+	font-weight:normal;
+}
+
+#bannerContent h2 {
+
+	font: normal 18px "Lucida Grande", verdana, arial, helvetica, sans-serif;
+	line-height: 22px;
+	width: 375px;
+	margin-bottom: 14px;
+	color: #fff;
+}
+
+#bannerContentReg h2 {
+
+	font: normal 18px "Lucida Grande", verdana, arial, helvetica, sans-serif;
+	line-height: 22px;
+	width: 375px;
+	margin-bottom: 4px;
+	color:#0000CC;
+}
+
+#createAccount {
+
+	width: 229px;
+	float: right;
+	text-align: right;
+	padding-top: 3px;
+}
+
+/* Login Form Styles */
+
+#loginBox {
+
+	width: 450px;
+	margin: 50px auto 5px auto;
+	text-align: left;
+	border: 3px #666666 solid;
+	padding:20px;
+	background-color:#fff;
+}
+
+#loginForm {
+
+	margin-top: 8px;
+	border-top: 1px dotted #cc3300;
+	padding-top: 15px;
+}
+
+#loginForm input {
+
+	width: 200px;
+}
+
+#loginForm label {
+
+	padding-right:15px;
+	padding-left:30px;
+}
+
+#loginForm #submit {
+
+	width:auto;
+	padding:3px;
+}
+
+#loginForm td {
+
+	font-weight:bold;
+	padding: 10px 0 5px 0;
+}
+
+.openIDlink {
+
+	background-repeat:no-repeat;
+	background-position: 2px 2px;
+	padding:3px 3px 3px 25px;
+	background-image:url(/media/images/icons/openid-icon-small.gif);
+}
+
+#openid_url {
+
+	background-image:url('/media/images/icons/openid-icon-small.gif');
+	background-repeat:no-repeat;
+	background-position:1px 3px;
+	background-attachment:scroll;
+	padding: 4px 3px 4px 18px;
+	border:1px solid #7f9db9;
+	margin-top:12px;
+}
+
+#loginOpenID {
+
+	font-size:10px;	
+	width: 500px;
+	margin: 10px auto;
+	text-align: right;
+}
+
+/* Main Site Navigation */
+
+#navStrip {
+
+	background: #fcf2ef;
+	border-bottom: 2px solid #efbfaf;
+}
+
+#navContent {
+
+	width: 750px;
+	margin: 0 auto;
+	height: 31px;
+
+}
+
+ul.topLevel {
+
+	float: left;
+}
+
+ul.topLevel li {
+
+	display: inline;
+	list-style-type: none;
+}
+
+ul.topLevel li a, ul.topLevel li a:link, ul.topLevel li a:visited {
+
+	font: bold 12px "Lucida Grande", verdana, arial, helvetica, sans-serif;
+	color: #113255;
+	text-decoration: none;
+	margin: 0 25px 5px 0;
+	padding: 9px 0 10px 0;
+	float: left;
+}
+
+ul.topLevel li a:hover, ul.topLevel li.active a, ul.topLevel li.active a:link, ul.topLevel li.active a:active, ul.topLevel li.active a:visited {
+
+	color: #4192e5;
+}
+
+/* Global Form Styles */
+
+input.highPriority {
+
+	padding:3px;
+
+}
+
+/* Font Styles */
+
+.smallPrint {
+
+	color:#999999;
+	font-size:10px;
+	font-weight:normal;
+}
+
+.warning {
+
+	color:#CC0000;
+	font-size:12px;
+	padding:15px;
+	border:1px solid #CC0000;
+	margin: 10px 0 10px 0;
+	font-weight:bold;
+	background-color:#FFFFCC;
+}
+
+.warning li {
+
+	list-style-type:none;
+	padding: 4px 0 3px 20px;
+	background-image:url(/media/images/icons/redSmall.gif);
+	background-position:0 2px;
+	background-repeat:no-repeat;
+}
+
+.success {
+
+	color:#009900;
+	font-size:12px;
+	padding:15px;
+	border:1px solid #009900;
+	margin: 10px 0 10px 0;
+	font-weight:bold;
+	background-color:#CCFFCC;
+}
+
+.success li {
+
+	list-style-type:none;
+	padding: 4px 0 3px 20px;
+	background-image:url(/media/images/icons/greenSmall.gif);
+	background-position:0 2px;
+	background-repeat:no-repeat;
+}
+
+#content h3 {
+
+	margin: 10px 0 10px 0;
+	color:#113255;
+	font-size:18px;
+	font-weight: normal;
+
+}
+
+div.loginLink {
+
+	font-size:11px;  
+}
+
+p.intro {
+
+	font-size: 13px;
+	padding: 0 25px 15px 0;
+	line-height: 150%;
+}
+
+.newsItem {
+
+	font-size:10px;
+	padding:0 0 5px 0;
+	border-bottom: dotted 1px #CCCCCC;
+	margin-bottom:15px;
+}
+
+p.quote {
+
+	padding:0 0 5px 32px;
+	background-image:url(/media/images/bckgrnds/quote.gif);
+	background-repeat:no-repeat;
+	background-position:1px 1px;
+	font-style:italic;
+	font-size:12px;
+}
+
+p.quoteAuthor {
+
+	padding:5px 0 25px 40px;
+	background-repeat:no-repeat;
+	background-position:1px 1px;
+	font-size:11px;
+	font-weight:bold;
+}
+
+#quoteFemale {background-image:url(/media/images/icons/silhouetteFemale.gif);}
+#quoteMale   {background-image:url(/media/images/icons/silhouetteMale.gif);}
+
+
+#sideBar h3 {
+
+	text-transform: uppercase;
+	font: bold 12px "Trebuchet MS", verdana, arial, helvetica, sans-serif;
+	border-top: 4px solid #0066cc;
+	border-bottom: 1px dotted #0066cc;
+	padding: 3px 0 0 2px;
+	margin: 15px 0 10px 0;
+	color:#cc3300;
+}
+
+/* Blog Specific Styles */
+
+#blogSearch {
+
+	width: 350px;
+	float: right;
+	text-align: right;
+	padding-top: 3px;
+	margin-top:13px;
+}
+
+#blogSearch input {
+
+	padding:3px;
+}
+
+/* AJAX Elements And Form Notices */
+
+.loader {
+
+	margin:0 10px 0 10px;
+	display:none;
+}
+
+.completed {
+
+	text-align:center;
+	padding:15px;
+	margin: 40px 0 40px 0;
+}
+
+.completed h1 {
+
+	font-size:14px;
+	margin:0 0 10px 0;
+	color:#009900;
+}
+
+/* Links */
+
+a:link, a:hover, a:active {
+
+	text-decoration:underline;
+	color: #0e5ca5;
+}
+
+a:visited { color:#0e5ca5; }
+
+a:hover { text-decoration:none; }
+
+.footerContentR a, .footerContentR a:hover {
+
+	color: #588ec4;
+}
+
+/* Site Colours and Designs */
+
+/* Useful Thingys */
+
+.clear {
+
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+.clearFooter {
+
+	background: #fff;
+	height: 25px;
+}

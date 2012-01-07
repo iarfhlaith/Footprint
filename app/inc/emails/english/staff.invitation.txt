@@ -1,0 +1,23 @@
+[~name~],
+
+You have been granted team level access to [~organisation~]'s online services.
+
+Using this tool, you'll be able to:
+
+  * Share information more easily
+  * Track the progress of client projects
+  * Collaborate on graphic designs and images
+  * Manage requests for new tasks
+  * Communicate with your team online
+
+An account has been created for you and you can access it using the details below:
+
+To login to your account go to: http://[~prefix~].footprintapp.com
+
+Your username is: [~username~]
+
+Your password is: [~password~]
+
+Regards,
+[~owner_name~]
+[~organisation~]

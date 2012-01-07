@@ -1,0 +1,201 @@
+* {
+	
+	/*margin:0;
+	padding:0;*/
+	font-family:verdana;
+}
+
+img {
+	
+	border:0;
+}
+
+.clear {
+	
+	clear:both;
+}
+
+body {
+	
+	background:#11426A;
+	margin:0;
+	padding:0;
+}
+
+#top {
+	
+	background-image:url(/media/images/promoSite/topSliver.gif); background-repeat:repeat-x;
+}
+
+#header {
+	
+	width:800px;
+	margin:0 auto;
+	padding:5px 0 7px 0;
+}
+
+#middle {
+	
+	width:800px;
+	margin:0 auto;
+	text-align:center;
+	background-image:url(/media/images/promoSite/middleBg.gif); background-repeat:repeat-x;
+}
+
+#middle h1 {
+	
+	color:#FFFFCC;
+	font-size:36px;
+	margin:30px 0 33px 0;
+}
+
+#middle h1.padOut {
+	
+	padding:0 0 35px 0;
+	margin:0 0 0 0;
+}
+
+#coupon {
+	
+	background-image:url(/media/images/promoSite/coupon.png); background-repeat:no-repeat;
+	background-position:top center;
+	padding:20px 0 8px 0;
+}
+
+#coupon h2 {
+	
+	color:#11426A;
+	font-size:24px;
+	margin:0 0 10px 0;
+}
+
+#coupon input {
+	
+	height:34px;
+	border:3px solid #CC3300;
+	margin:0 0 40px 0;
+	width:144px;
+	font-size:20px;
+	padding:0 0 0 5px;
+}
+
+#anyQuestions {
+	
+	float:right;
+	margin:300px 40px 0 0;
+}
+
+#details {
+	
+	text-align:right;
+	width:553px;
+	font-size:14px;
+	color:#ffffff;
+	font-weight:bolder;
+	padding:8px 0 0 0;
+}
+
+.enterDetails {
+	
+	width:301px;
+	margin:0 0 0 10px;
+	border:none;
+	background:transparent;
+	background-image:url(/media/images/promoSite/inputBg.png); background-repeat:no-repeat;
+	height:30px;
+	font-size:16px;
+	padding:4px 0 0 5px;
+}
+
+#details div {
+	
+	margin:0 0 10px 10px;
+}
+
+#details div span {
+	
+	display:block;
+	margin:0 0 20px 220px;
+	font-style:normal;
+}
+
+.dropdown select {
+	
+	height:30px;
+	width:301px;
+	margin:0 5px 0 10px;
+	border:2px solid #10436D;
+	font-size:16px;
+	padding:2px 0 0 0;
+}
+
+#siteAddress {
+	
+	width:175px;
+	margin:0 5px 0 10px;
+	border:none;
+	background:transparent;
+	background-image:url(/media/images/promoSite/smallInputBg.png); background-repeat:no-repeat;
+	height:30px;
+	color:#11426A;
+	font-size:16px;
+	padding:4px 0 0 5px;
+}
+
+#footprintapp {
+	
+	color:#FFFFCC;
+	font-size:12px;
+	padding:0 5px 0 0;
+	font-style:normal;
+}
+
+#createAccount {
+	
+	padding:0 5px 110px 0;
+}
+
+#end {
+	
+	border-top:1px solid #225795;
+	margin:65px 0 40px 0;
+	padding:10px 0 0 0;
+}
+
+#footer {
+	
+	width:800px;
+	margin:0 auto;
+}
+
+#webstrong {
+	
+	float:right;
+}
+
+#footer p {
+	
+	color:#3783C1;
+	font-size:11px;
+}
+
+#loader {
+	
+	margin:60px 0 25px 0;
+}
+
+.error {
+	
+	color:#FFFFCC;
+	background-image:url(/media/images/promoSite/redSmall.png);background-repeat:no-repeat;
+	background-position:20px 0;
+	text-align:left;
+	padding:0 0 5px 40px;
+	font-size:11px;
+	font-weight:bolder;
+}
+
+#interim {
+	
+	display:none;
+}

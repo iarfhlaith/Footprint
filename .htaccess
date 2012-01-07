@@ -1,0 +1,32 @@
+
+#
+# Redirect footprintapp.com to www.footprintapp.com
+#
+
+RewriteEngine On
+
+# Canonicalize domain
+
+RewriteCond %{HTTP_HOST} ^www.footprintapp.com [NC]
+RewriteRule ^(.*)$ http://footprintapp.com/$1 [L,R=301]
+
+# Canonicalize subdomains
+RewriteCond %{HTTP_HOST} ^(www\.)?([^.]+)(\.www)?\.footprintapp\.com
+RewriteCond %2 !^www
+RewriteRule ^/(.*)$ http://%2.footprintapp.com/$1 [R=301,L] 
+
+
+###########################################################
+#
+# Local Dev Configuration
+#
+###########################################################
+
+# Canonicalize domain
+RewriteCond %{HTTP_HOST} ^www.footprintapp.local [NC]
+RewriteRule ^(.*)$ http://footprintapp.local/$1 [L,R=301]
+
+# Canonicalize subdomains
+#RewriteCond %{HTTP_HOST} ^(www\.)?([^.]+)(\.www)?\.footprintapp\.local
+#RewriteCond %2 !^www
+#RewriteRule ^/(.*)$ http://%2.footprintapp.local/$1 [R=301,L]

@@ -1,0 +1,26 @@
+Hey,
+
+[~name~] has left some feedback while using the [~org~] account (http://[~prefix~].footprintapp.com).
+
+Their email address is: [~email~]
+Their system userID is: [~userID~]
+
+[~subject~]
+---------------------------------------
+[~comment~]
+---------------------------------------
+
+The tracking number issued for this feedback is: [~feedbackID~]
+
+For more information access the admin tools.
+
+Thanks,
+
+Footprint Support
+
+---------------------------------------
+Footprint is a service of Webstrong Ltd
+
+13 Docklands Innovation Park
+128-130 East Wall Road, Dublin 3
+Republic of Ireland

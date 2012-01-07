@@ -1,0 +1,15 @@
+<project name="Footprint App Build System" default="copy.files" basedir=".">
+	<target name="copy.files">
+
+		<ftp server="footprintapp.com"
+             remotedir="httpdocs/app/"
+			 userid="${username}"
+		     password="${password}">
+		     					
+			 <fileset dir="..">
+			 	<include name="**/*"/>
+			 </fileset>
+		</ftp>
+			 
+	</target>
+</project>

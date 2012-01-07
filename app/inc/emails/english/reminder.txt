@@ -1,0 +1,22 @@
+Hi [~firstname~],
+
+You or someone else has made a request to reset your Footprint password on the [~company~] account.
+
+If you would like to reset your password please click on the following link. It will bring you to a password reset page where you can choose a new one.
+
+Reset your password: [~url~]
+
+As a reminder, your username is: [~username~]
+
+If you did not request your password to be reset, you can safely ignore this message and your password will remain unchanged.
+
+Thanks,
+
+Footprint Support
+
+---------------------------------------
+Footprint is a service of Webstrong Ltd
+
+13 Docklands Innovation Park
+128-130 East Wall Road, Dublin 3
+Republic of Ireland

@@ -1,0 +1,23 @@
+[~name~],
+
+Your company has been setup on [~organisation~]'s online services.
+
+Using this tool, you'll be able to:
+
+  * Share information more easily
+  * Track the progress of your projects
+  * Collaborate on graphic designs and images
+  * Make requests for new tasks
+  * Communicate with your team online
+
+An account has been created for you and you can access it using the details below:
+
+To login to your account go to: http://[~prefix~].footprintapp.com
+
+Your username is: [~username~]
+
+Your Password is: [~password~]
+
+Regards,
+[~owner_name~]
+[~organisation~]

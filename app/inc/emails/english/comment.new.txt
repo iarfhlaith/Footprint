@@ -1,0 +1,16 @@
+[~firstname~],
+
+[~author~] wrote a new comment on your online services system.
+
+It said:
+---
+"[~comment~]"
+---
+
+Please login to your account to reply to this comment.
+
+To login to your account go to: http://[~prefix~].footprintapp.com
+
+Regards,
+The Team,
+[~organisation~]
