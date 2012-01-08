@@ -1,25 +1,30 @@
 <?php
 
-/***
- * 
- * Project:     Footprint - Project Collaboration for Web Designers
- * File:        class.client.inc.php
+/**
+ * Footprint
  *
- * Customer Billing System
+ * A project management tool for web designers.
  *
- * Please do not copy or distribute this code without prior consent
- * from Webstrong Ltd.
+ * NOTICE OF LICENSE
  *
- * This software is protected under Irish Copyright Law.
+ * Licensed under the Open Software License version 3.0
  *
- * For questions, help, comments, discussion, etc., please visit the
- * Footprint Site Forums. @link http://www.footprinthapp.com/forums
+ * This source file is subject to the Open Software License (OSL 3.0) that is
+ * bundled with this package in the files license.txt / license.rst. It is
+ * also available through the world wide web at this URL:
+ * http://opensource.org/licenses/OSL-3.0
+ * If you did not receive a copy of the license and are unable to obtain it
+ * through the world wide web, please send an email to
+ * licensing@ellislab.com so we can send you a copy immediately.
  *
- * @link 		http://www.footprintapp.com/
- * @copyright 	2007-2009 Webstrong Ltd
- * @author 		Iarfhlaith Kelly <ik at webstrong dot ie>
- * @package 	Footprint
- * @version 	1.0
+ * @package Footprint
+ * @author Iarfhlaith Kelly
+ * @copyright Copyright (c) 2007 - 2012, Iarfhlaith Kelly. (http://iarfhlaith.com/)
+ * @license http://opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)
+ * @link http://footprintapp.com
+ * @since Version 1.0
+ * @filesource
+ *
  * 
  * 
  *******************************************************************
