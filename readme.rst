@@ -2,7 +2,7 @@
 What is Footprint
 #################
 
-Footprint is a project management tool built for web designers. Aim at freelancers
+Footprint is a project management tool built for web designers. Aimed at freelancers
 and small businesses within the web industry, this web app supports project tracking
 and collaborative communication between designer and client. Staff, Clients, Projects,
 Tasks, Images, and Documents can all be managed on Footprint. 
@@ -18,17 +18,20 @@ Server Requirements
 *******************
 
 -  PHP version 4.3 or greater.
--
 -  PEAR
 -  -- Auth
 -  -- HTTP
 -  -- MDB2
 -  -- Net/URL2
 -  -- XML/Parser
--
 -  Smarty Template Engine version 2.6 or greater.
--
-- MySQL Database 
+-  MySQL Database 
+
+**********************
+3rd Party Dependencies
+**********************
+
+-  Amazon S3 Account (for large file storage)
 
 ************
 Installation
