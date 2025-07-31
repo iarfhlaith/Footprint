@@ -47,13 +47,13 @@ function tryAuth($openID)
 	
 	if ($sRegRequest) $authRequest->addExtension($sRegRequest);
 	
-	// Redirect user to their OpenID provider
-	if ($auth_request->shouldSendRedirect())
-	{
-        $redirect_url = $auth_request->redirectURL(OPENID_ROOT, OPENID_ROOT.'');
-		
-		//Continue here...
-	}
+        // Redirect user to their OpenID provider
+        if ($authRequest->shouldSendRedirect())
+        {
+                $redirect_url = $authRequest->redirectURL(OPENID_ROOT, OPENID_ROOT.'');
+
+                //Continue here...
+        }
 
 	
 	
